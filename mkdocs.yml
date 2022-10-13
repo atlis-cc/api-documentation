@@ -1,0 +1,33 @@
+site_name: Atlis API
+theme:
+  name: material
+
+  logo: Assets/icon.png
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 🌚 Bring out the moon
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 🌞 Let the sun in
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        nl: Nederlands
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.escapeall:
+      hardbreak: true
