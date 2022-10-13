@@ -1,5 +1,4 @@
 # Atlis API documentation
-[![Documentation Status](https://readthedocs.org/projects/atlis-api/badge/?version=latest&style=flat-square&label=API+Documentation)](https://atlis-api.readthedocs.io/en/latest/?badge=latest)
 
 This documentations main purpose is to document all features and functions of the Atlis API.
 
